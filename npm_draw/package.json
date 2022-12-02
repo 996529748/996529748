@@ -1,0 +1,24 @@
+{
+  "name": "foxit_lucky_draw",
+  "version": "1.0.4",
+  "description": "九宫格抽奖",
+  "keywords":["九","宫格","九宫格","抽奖"],
+  "main": "lib/index.js",
+  "scripts": {
+    "cleanLib": "./node_modules/.bin/rimraf lib",
+    "bableBuild": "./node_modules/.bin/babel ./index.js --out-dir lib ",
+    "prepublish":"npm run cleanLib && npm run bableBuild"
+  },
+  "author": "Mr_liu",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.6.11",
+    "grid-roll": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^3.0.2"
+  }
+}

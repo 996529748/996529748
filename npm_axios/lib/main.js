@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0});var _axios=require("./axios"),_axios2=_interopRequireDefault(_axios);function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}exports.default=_axios2.default;

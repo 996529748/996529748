@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default={method:"get",headers:{"Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"},data:{},timeout:2e3,withCredentials:!0,responseType:"json",retry:4,retryDelay:1e3,showLoading:!0};
